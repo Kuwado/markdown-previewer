@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+#editor,
+#preview {
+  width: 45%;
+  height: 80vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  overflow: auto;
+}
